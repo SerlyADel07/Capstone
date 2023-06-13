@@ -2,7 +2,7 @@ import streamlit as st
 
 st.markdown("# Tentang Cybersecurity 🔑🔒")
 from PIL import Image
-image = Image.open('CS1.jpg')
+image = Image.open("https://drive.google.com/file/d/16mvfPgvI1EsP4NFcvSIlFJJUVKlU3pMe/view?usp=drive_link")
 
 st.image(image, caption='''Gambar Cybersecurity (unsplash.com)''')
 st.sidebar.markdown("Apa itu Cybersecurity?")
